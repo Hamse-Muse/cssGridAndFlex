@@ -1,0 +1,31 @@
+.grid{
+  display:grid;
+  grid-template-areas: 'head .';
+}
+.content{
+  grid-area:head;
+  margin:4em 0 0 4em;
+  text-align:left;
+  width :50%;
+  color:white;
+  h1{
+    font-weight: 800;
+    font-size: 3em;
+    line-height: 1.2em;
+    
+  }
+  p{
+    font-size:1.5em;
+    color:#ffb1ae;
+    display: inline-block;
+  }
+  a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: inline-block;
+    text-align: center;
+    padding: 15px 30px;
+    background-color: #dc2c24
+  }
+}
